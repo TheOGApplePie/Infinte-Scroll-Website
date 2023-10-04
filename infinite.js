@@ -1,6 +1,5 @@
-window.scrollTo(0,0);
 let lastKnownY = 0;
-document.addEventListener("scroll",()=>{
+document.addEventListener("scroll",(event)=>{
 if(window.scrollY === window.innerHeight*4 && lastKnownY < window.scrollY){
     window.scrollTo(0,0);
 }
