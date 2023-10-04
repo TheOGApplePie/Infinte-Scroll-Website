@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+*::-webkit-scrollbar{
+display: none;
+}
+section{
+    height: 100vh;
+    .centered{
+        position: relative;
+        top: 50%;
+        margin: 0;
+        padding: 0;
+        text-align: center;
+    }
+}
+.first-slide{
+    background-color: orange;
+    color: green;
+}
+.second-slide{
+    background-color: pink;
+    color: cornflowerblue;
+}
+.third-slide{
+    background-color: darkblue;
+    color:crimson;
+}
+.fourth-slide{
+    background-color: purple;
+    color: yellow;
+}
